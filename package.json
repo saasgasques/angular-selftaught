@@ -1,0 +1,24 @@
+{
+  "name": "angular-selftaught",
+  "version": "1.0.0",
+  "description": "Self taught angular",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saasgasques/angular-selftaught.git"
+  },
+  "author": "Carles Gasques Baró",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saasgasques/angular-selftaught/issues"
+  },
+  "homepage": "https://github.com/saasgasques/angular-selftaught#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

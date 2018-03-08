@@ -3,6 +3,10 @@ npm -v
 npm -g ls
 npm ls
 
+# GitHub
+carles.gasques@gmail.com
+Berenguer2012
+
 git init
 git status
 git add .
@@ -15,3 +19,20 @@ git checkout --index.html // something about the stagging area
 git remote add origen https://.../git-test.git // set remote repository
 git push -u origen master // push local repo to the remote master branch
 git clone <repository URL> // to other place
+...
+git remote -v
+
+### package.json ###
+"scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+"devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+
+npm init
+npm install lite-server --save-dev
+npm ls
+npm start
