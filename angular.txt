@@ -1,0 +1,17 @@
+node -v
+npm -v
+npm -g ls
+npm ls
+
+git init
+git status
+git add .
+git commit -m 'first commit'
+git log --oneline
+...
+git checkout <2 commit number> index.html // get back this file
+git reset HEAD index.html // get the last file
+git checkout --index.html // something about the stagging area
+git remote add origen https://.../git-test.git // set remote repository
+git push -u origen master // push local repo to the remote master branch
+git clone <repository URL> // to other place
